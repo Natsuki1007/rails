@@ -21,7 +21,7 @@ elsif memo_type == '2'
   puts "編集するファイルを拡張子を除いて入力してください"
   file = gets.to_s
   puts "編集内容を入力してください"
-  File.write("test.csv",make_memo)
+  File.write("test.csv",edit_memo)
 else
   puts "1または2を入力してください"
 end
